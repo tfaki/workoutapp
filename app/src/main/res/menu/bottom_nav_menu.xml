@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/health_status"
+        android:title="Sağlık" />
+
+    <item
+        android:id="@+id/workout"
+        android:title="Antreman" />
+
+    <item
+        android:id="@+id/calendar"
+        android:title="Takvim" />
+
+    <item
+        android:id="@+id/macro_calculator"
+        android:title="Hesap" />
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profil" />
+
+</menu>

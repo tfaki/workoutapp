@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/health_status">
+
+    <fragment
+        android:id="@+id/health_status"
+        android:name="com.lofty.workoutapp.ui.fragment.CurrentHealthStatusFragment"
+        android:label="HealthStatusFragment"
+        tools:layout="@layout/fragment_current_health_status"/>
+
+
+    <fragment
+        android:id="@+id/workout"
+        android:name="com.lofty.workoutapp.ui.fragment.WorkoutFragment"
+        android:label="WorkoutFragment"
+        tools:layout="@layout/fragment_workout"/>
+
+    <fragment
+        android:id="@+id/calendar"
+        android:name="com.lofty.workoutapp.ui.fragment.CalendarFragment"
+        android:label="CalendarFragment"
+        tools:layout="@layout/fragment_calendar"/>
+
+    <fragment
+        android:id="@+id/macro_calculator"
+        android:name="com.lofty.workoutapp.ui.fragment.MacroCalculatorFragment"
+        android:label="MacroCalendarFragment"
+        tools:layout="@layout/fragment_macro_calculator"/>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.lofty.workoutapp.ui.fragment.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+</navigation>
